@@ -11,6 +11,7 @@ main {
 
 article {
     flex: 2;
+    position: relative;
 }
 
 aside {
@@ -19,4 +20,9 @@ aside {
 
 article, aside {
     overflow-y: auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
 }

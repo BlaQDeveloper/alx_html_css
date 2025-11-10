@@ -20,7 +20,7 @@ ul {
 a:link {
     text-decoration: none;
     color: white;
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro';
 }
 
 .navigation-menu {
@@ -93,7 +93,7 @@ button {
     margin-top: 100px;
 }
 
-.first-word {
+.learn {
     font-weight: bold;
     color: #c271ff;
 }
@@ -121,9 +121,8 @@ button {
 }
 
 .quote-container {
-    margin-top: 6px;
     background-color: #c271ff;
-    padding: 70px;
+    padding: 80px;
 
 }
 
@@ -146,5 +145,47 @@ blockquote {
     margin-top: 20px;
 }
 
+.video-feature-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
 
+.video-heading {
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-size: 32px;
+    font-weight: lighter;
+    margin-bottom: 80px;
+    color: #333333;
+}
 
+.video-container {
+    padding: 70px;
+}
+
+.popular {
+    font-weight: bold;
+    color: #c271ff;
+}
+
+.video-feature {
+    position: relative;
+    display: inline-grid;
+    place-items: center;
+}
+
+.feature-image {
+    grid-area: 1 / 1;
+    width: 100%;
+    height: auto;
+
+}
+ 
+.play-button {
+    grid-area: 1 / 1;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+}

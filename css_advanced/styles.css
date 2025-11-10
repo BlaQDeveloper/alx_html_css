@@ -226,7 +226,48 @@ blockquote {
     margin-top: 10px;
 }
 
-.video-third-heading, .rating-box p {
+.video-third-heading, .rating-box p, .free {
     color: #c271ff;
 }
 
+.membership-container {
+    background-color: #071629;
+    color: white;
+}
+
+.membership-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px;
+    gap: 30px;
+    font-family: 'Source Sans Pro';
+}
+
+.membership-heading {
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-size: 32px;
+    font-weight: lighter;
+    padding-top: 60px;
+    color: white;
+}
+
+.membership-feature {
+    text-align: center;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: lighter;
+}
+
+.membership-button {
+    background-color: #c271ff;
+    color: white;
+    font-family: 'Source Sans Pro';
+}
+
+.membership-button-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}

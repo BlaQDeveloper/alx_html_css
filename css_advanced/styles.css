@@ -226,3 +226,7 @@ blockquote {
     margin-top: 10px;
 }
 
+.video-third-heading, .rating-box p {
+    color: #c271ff;
+}
+

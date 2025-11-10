@@ -205,3 +205,24 @@ blockquote {
     justify-self: start;
 }
 
+.author-box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-self: start;
+    margin-top: 10px;
+}
+
+.author-box img {
+    width: 70px;
+    height: 70px;
+}
+
+.rating-box {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-self: start;
+    margin-top: 10px;
+}
+
